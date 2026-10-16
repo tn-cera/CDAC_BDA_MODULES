@@ -51,14 +51,4 @@ A sensitive server room is represented as an **N × M grid** of temperature sens
 
 ---
 
-## 💻 Compiling & Running the System
 
-Execute the commands below from the root of your source directory to compile the modular package tree and run the application:
-
-```bash
-# 1. Generate directory boundaries and compile byte-code structures
-javac -d . com/datacenter/security/ThermalCalc.java com/datacenter/app/Main.java
-
-# 2. Execute the application via its Fully Qualified Name (FQN)
-java com.datacenter.app.Main
-```
